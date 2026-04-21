@@ -40,9 +40,11 @@ section:hover{
 }
 img{
     width: 30%;
-    height: auto; 
-    margin: 20px;      
+    height: 450px; 
+    margin: 30px;      
     border-radius: 10px;
+    display: flexbox;
+    
 }
 form{
     max-width: 650px;
@@ -62,4 +64,16 @@ p{
     margin: 10px;
     font-weight: 600;
 }
+*caption{
+    display: flex;
+    align-items: center;
+}
+h3{
+    margin: 10px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+
 
